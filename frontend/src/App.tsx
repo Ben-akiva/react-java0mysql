@@ -25,7 +25,7 @@ function App() {
           <p>Loading...</p>
         )}
         <p>
-           <code>/App.tsx</code> module 6- Ben akiva
+           module 6- Ben akiva
         </p>
         <a
           className="App-link"
