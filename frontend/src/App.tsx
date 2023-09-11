@@ -25,7 +25,7 @@ function App() {
           <p>Loading...</p>
         )}
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+           <code>/App.tsx</code> module 6- Ben akiva
         </p>
         <a
           className="App-link"
