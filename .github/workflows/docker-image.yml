@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: install 
-      run:  docker-compose down
+      run:  docker-compose up -d
 
   Test:
     needs: Build
@@ -19,4 +19,4 @@ jobs:
     steps:
     - name: test 
       run: sleep 5 && curl localhost:3000
-  
+
