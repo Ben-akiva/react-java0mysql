@@ -22,7 +22,7 @@ function App() {
         {greeting ? (
           <p>Hello from {greeting.name}</p>
         ) : (
-          <p>Loading...</p>
+          <p>module 6 - Ben akiv</p>
         )}
         <p>
            module 6- Ben akiva
