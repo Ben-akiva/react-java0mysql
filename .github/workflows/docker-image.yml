@@ -1,4 +1,4 @@
-name: CI
+name: CI java&sql
 on:
   push:
     tags:
@@ -19,4 +19,13 @@ jobs:
     steps:
     - name: test 
       run: sleep 10 && curl localhost:3000
+
+  Package:
+   needs: Test
+   runs-on: self-hosted
+   steps:
+   - name: JFrog
+     run: docker push jfogedemo.jfrog.io/appbenakiva-docker/react-java0mysql_frontend && docker push jfogedemo.jfrog.io/appbenakiva-docker/react-java0mysql_backend
+    
+  
 
