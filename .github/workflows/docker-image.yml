@@ -25,7 +25,7 @@ jobs:
    runs-on: self-hosted
    steps:
    - name: JFrog
-     run: docker push jfogedemo.jfrog.io/appbenakiva-docker/react-java0mysql_frontend && docker push jfogedemo.jfrog.io/appbenakiva-docker/react-java0mysql_backend
+     run: docker push benakiva/super-app_php-app:latest && docker push benakiva/node:latest && docker push benakiva/mysql_for_php:latest
     
   
 
